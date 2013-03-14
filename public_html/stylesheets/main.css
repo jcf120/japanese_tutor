@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+    color: #36C;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.3em 0.6em;
+    text-align: left;
+    font-size: 16pt;
+}
+
+
+/*                                         */
+/*               GUI Elements              */
+/*                                         */
+
+
+input, select {
+    font-size: 16pt;
+}
+
+/*               JSelect                   */
+
+a.jselect {
+    cursor: pointer;
+    padding: .1em .5em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #DDD;
+    background-color: #FFF;
+    box-shadow:5px 5px 5px #888;
+}
+
+a.jselect:hover {
+    text-decoration: none;
+}
+
+ul.jselect {
+    position: absolute;
+    padding: 0;
+    color: #36C;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #DDD;
+    box-shadow:5px 5px 5px #888;
+}
+
+.jselect li {
+    list-style: none;
+    background-color: #FFF;
+    padding: .1em .5em;
+}
+
+.jselect li:hover {
+    background-color: #DDD;
+}
+
+.jselect li.selected {
+    background-color: #BBB;
+}
+
+/*               Button                   */
+
+
+a.button {
+    cursor: pointer;
+    padding: .1em .5em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #DDD;
+    background-color: #FFF;
+    box-shadow:5px 5px 5px #888;
+}
+
+a.button:hover {
+    background-color: #DDD;
+    border-color: #BBB;
+    text-decoration: none;
+    box-shadow:2px 2px 2px #888;
+}
+
+/*               JCheckBox                 */
+
+a.jcheckbox {
+    cursor: pointer;
+    display: block;
+}
+
+a.jcheckbox #box {
+    width: .9em;
+    height: .9em;
+    margin-right: .5em;
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #DDD;
+    background-color: #FFF;
+    box-shadow:5px 5px 5px #888;
+}
+
+
+
+#pagination {
+    clear: both;
+}
+
+#pagination .selected {
+    font-weight: bold;
+}
+
+
+/*                                         */
+/*                  Header                 */
+/*                                         */
+
+#login-out {
+    font-size: 10pt;
+    text-align: right;
+}
+
+
+/*                                         */
+/*               Verb Editor               */
+/*                                         */
+
+#verbs td, #new-verb td {
+    width: 120px;
+}
+
+#new-verb input[type="text"], select {
+    display: block;
+    width: 120px;
+}
+
+tr.highlight {
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.error {
+    background-color: #FAA;
+}
+
+/*                                         */
+/*             Verb form table             */
+/*                                         */
+
+#tenses tr.block-start td {
+    padding-top: 1em;
+}
+
+#tenses tr.block-end td {
+    padding-bottom: 1em;
+}
+

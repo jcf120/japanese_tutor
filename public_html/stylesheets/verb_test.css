@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+}
+
+#card-table {
+    height: 300px;
+}
+
+#card-table a.jselect, ul.jselect {
+}
+
+.test-card {
+    position: absolute;
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #DDD;
+    background-color: #FFF;
+    box-shadow:5px 5px 5px #888;
+}
+
+.test-card h2 {
+    font-size: 30pt;
+    text-align: center;
+}
+
+.test-card h3 {
+    text-align: center;
+}
+
+.test-card p {
+    font-size: 30pt;
+    text-align: center;
+    padding: 0 1em;
+}
+
+.test-card p.empty {
+    color: #AAA;
+}
+
+#time {
+    font-size: 20pt;
+    color: #AAA;
+}
+
+#score {
+    color: #AAA;
+}
+
+#results .correct {
+    background-color: #CFC;
+}
+
+#results .incorrect {
+    background-color: #FCC;
+}
